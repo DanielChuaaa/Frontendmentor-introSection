@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <header class="primaryHeader">
+      <nav class="container">
+        <div class="nav">
+          <img src="./images/logo.svg" class="logo" alt="logo" />
+
+          <div class="navLink">
+            <div class="backdrop">
+              <div class="navLinkMobile">
+                <div class="dropdown is-right is-hoverable" id="dropdown1">
+                  <span>Features</span>
+                  <span class="arrow"> </span>
+
+                  <div class="dropdown-menu" id="dropdown-menu6" role="menu">
+                    <div class="dropdown-content">
+                      <div class="dropdown-item">
+                        <div class="dropdownLink">
+                          <img src="./images/icon-todo.svg" alt="TodoList" />
+                          <a href="#"> TodoList</a>
+                        </div>
+                        <div class="dropdownLink">
+                          <img src="./images/icon-calendar.svg" alt="calendar" />
+                          <a href="#">Calendar</a>
+                        </div>
+                        <div class="dropdownLink">
+                          <img src="./images/icon-reminders.svg" alt="reminders" />
+                          <a href="#">Reminder</a>
+                        </div>
+                        <div class="dropdownLinkNoMargin">
+                          <img src="./images/icon-planning.svg" alt="plannig" />
+                          <a href="#">Planning</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown is-hoverable" id="dropdown2">
+                  <span>Company</span>
+                  <span class="arrow"> </span>
+
+                  <div class="dropdown-menu" id="dropdown-menu6" role="menu">
+                    <div class="dropdown-content-secondary">
+                      <div class="dropdown-item">
+                        <div class="dropdownLink">
+                          <a href="#"> History</a>
+                        </div>
+                        <div class="dropdownLink">
+                          <a href="#">Our Team</a>
+                        </div>
+                        <div class="dropdownLinkNoMargin">
+                          <a href="#">Blog</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#">Carrers</a>
+                <a href="#">About</a>
+              </div>
+            </div>
+          </div>
+          <div class="navButton">
+            <button data-border="none">Login</button>
+            <button data-hover="true">Register</button>
+          </div>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="gridWrapper">
+          <div class="flow">
+            <h1 class="header">Make remote work</h1>
+            <p class="text">
+              Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+            </p>
+
+            <button class="button">Learn more</button>
+
+            <div class="sponsor">
+              <img src="./images/client-databiz.svg" alt="databiz" />
+              <img src="./images/client-audiophile.svg" alt="audiophile" />
+              <img src="./images/client-meet.svg" alt="meet" />
+              <img src="./images/client-maker.svg" alt="maker" />
+            </div>
+          </div>
+
+          <div class="heroImage"></div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
